@@ -42,7 +42,7 @@ int main()
     Archivos(aUC,wus,temp,aDatos,aPos,aParter,aPols,aCaps,iprt);
 
     LeerYEscribir(aDatos,na,nm,np,nparm,nparchm,nparcha,L,diamb,ang,parmat,angg,LL,L2,nconf);
-    CalcularParmatp(na,nparcha,parmat,nparm);
+    CalcularParmatp(na,nparcha,parmat,nparm,nparchm);
     
     return 0;
 }

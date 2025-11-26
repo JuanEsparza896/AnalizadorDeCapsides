@@ -12,4 +12,6 @@ enum distro{
     windows
 };
 
+#define PAbrioArchivo(arch,farch) if(!farch){std::cout<<"error al abrir archivo "<<arch<<std::endl;exit(EXIT_FAILURE);}
+
 #endif
